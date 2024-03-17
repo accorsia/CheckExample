@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kJvbxXAugKEOshssKbHvoleA+HH0Z97YOOrew6X1wFDaGBDC0ME6gCNqPOs31f6kLNxF/PkZKSdaAL6/UlHxFg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aless\\source\\repos\\CheckExample\\CheckExample\\CheckDuplicatesInCSV.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aless\\.nuget\\packages\\csvhelper\\31.0.2\\csvhelper.31.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\bin\Debug\net8.0-windows\CheckExample.exe
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\bin\Debug\net8.0-windows\CheckExample.deps.json
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\bin\Debug\net8.0-windows\CheckExample.runtimeconfig.json
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\bin\Debug\net8.0-windows\CheckExample.dll
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\bin\Debug\net8.0-windows\CheckExample.pdb
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\obj\Debug\net8.0-windows\CheckExample.Main.resources
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\obj\Debug\net8.0-windows\CheckExample.csproj.GenerateResource.cache
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\obj\Debug\net8.0-windows\CheckExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\obj\Debug\net8.0-windows\CheckExample.AssemblyInfoInputs.cache
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\obj\Debug\net8.0-windows\CheckExample.AssemblyInfo.cs
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\obj\Debug\net8.0-windows\CheckExample.csproj.CoreCompileInputs.cache
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\obj\Debug\net8.0-windows\CheckExample.dll
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\obj\Debug\net8.0-windows\refint\CheckExample.dll
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\obj\Debug\net8.0-windows\CheckExample.pdb
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\obj\Debug\net8.0-windows\CheckExample.genruntimeconfig.cache
+C:\Users\AAccorsi\source\repos\CheckExample\CheckExample\obj\Debug\net8.0-windows\ref\CheckExample.dll
