@@ -1,32 +1,53 @@
 # CheckDuplicatesInCSV
 
-Questo progetto fornisce un'applicazione Windows Form per leggere un file CSV, trovare i duplicati e visualizzarli in una griglia.
+## Description
+CheckDuplicatesInCSV is a Windows Forms application that reads a CSV file, identifies duplicate records, and displays them in a grid.
 
-## Classi
+## Features
+- Load and read CSV files
+- Identify duplicate records
+- Display data in a user-friendly grid
+- Utility methods for enhanced CSV processing
 
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/CheckDuplicatesInCSV.git
+   ```
+2. Open the project in Visual Studio.
+3. Build and run the application.
+
+## Usage
+- Click the **Browse** button to select a CSV file.
+- Click **Read CSV** to load and display the file’s content.
+- Click **Find Duplicates** to detect and display duplicate records.
+
+## Class Overview
 ### CSVCore
-
-La classe `CSVCore` fornisce metodi per leggere un file CSV e trovare i duplicati.
-
-- `ReadCSV(string path, string delimiter, bool hasHeader, int colNumber)`: Legge un file CSV e restituisce una lista di record.
-- `NumFilesXZip(List<string> recordList, bool output = false)`: Conta il numero di file per ciascun file zip.
-- `ExtractRecordsOfZip(List<string> recordList, string selectedZip = "12", bool output = false)`: Estrae i record di un file zip specifico.
-- `GetDuplicatesFromList(List<string> list)`: Ottiene i duplicati da una lista.
+Handles CSV processing:
+- `ReadCSV(path, delimiter, hasHeader, colNumber)`: Reads a CSV file and returns a list of records.
+- `NumFilesXZip(recordList, output)`: Counts files in ZIP archives.
+- `ExtractRecordsOfZip(recordList, selectedZip, output)`: Extracts records from a specific ZIP file.
+- `GetDuplicatesFromList(list)`: Identifies duplicates.
 
 ### Utils
-
-La classe `Utils` fornisce metodi di utilità per l'applicazione.
-
-- `CSVFileExsists(TextBox txtPath)`: Controlla se esiste un file CSV.
-- `GetCSVConfiguration(TextBox txtDelimiter, ComboBox cboSelectedCol)`: Ottiene la configurazione del file CSV.
-- `DataTableFromList<T>(List<List<T>> lists, string[] indexes)`: Crea un DataTable da una lista di liste.
+Provides utility functions:
+- `CSVFileExists(txtPath)`: Checks if a CSV file exists.
+- `GetCSVConfiguration(txtDelimiter, cboSelectedCol)`: Retrieves CSV configurations.
+- `DataTableFromList<T>(lists, indexes)`: Converts lists into a DataTable.
 
 ### MainForm
+Handles UI events and data presentation.
 
-La classe `MainForm` è la classe principale dell'applicazione Windows Form. Fornisce metodi per gestire gli eventi dei pulsanti e visualizzare i dati nella griglia.
+## Contributing
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
-## Utilizzo
+## License
+This project is open-source and available under the [MIT License](LICENSE).
 
-1. Fai clic sul pulsante "Sfoglia" per selezionare un file CSV.
-2. Fai clic sul pulsante "Leggi CSV" per leggere il file CSV e visualizzare i record nella griglia.
-3. Fai clic sul pulsante "Trova duplicati" per trovare i duplicati e visualizzarli nella griglia.
+## Tags
+- C#
+- Windows Forms
+- CSV Processing
+- Data Management
+- Duplicate Finder
